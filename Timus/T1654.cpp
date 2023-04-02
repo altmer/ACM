@@ -1,0 +1,51 @@
+#include <iostream>
+#include <sstream>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <string>
+#include <vector>
+#include <cmath>
+#include <bitset>
+#include <functional>
+#include <queue>
+#include <stack>
+#include <algorithm>
+#include <numeric>
+#include <limits>
+#include <map>
+#include <list>
+#include <set>
+#pragma comment(linker, "/STACK:65777216")
+using namespace std;
+
+char ch, str[200010];
+int len=0;
+
+int main (void){
+#ifndef ONLINE_JUDGE
+	freopen ("in.txt", "r", stdin);
+	freopen ("out.txt", "w", stdout);
+#endif
+
+	while(scanf("%c",&ch)!=EOF && ch!='\n'){
+		if(len>0){
+			if(str[len-1]==ch){
+				len--;
+			}
+			else{
+				str[len++]=ch;
+			}
+		}
+		else{
+			str[len++]=ch;
+		}
+	}
+
+	for (int i=0;i<len;++i){
+		printf("%c",str[i]);
+	}
+	printf("\n");
+
+	return 0;
+}

@@ -1,0 +1,15 @@
+ j=3  $
+ PAR {
+     for (i=0  $ i<n  $ i++)  alpha[i][j]+=alpha[i+1][j+1]  $
+     if (Num==func(c,d))  r+=f(Num,34.15)  $
+     SEQL {
+          a=b  $ b=c  $ c=a  $
+          PAR {
+              t1=1  $ t2=2  $ t3=3  $
+              }
+          }
+     d=4  $ a=3.14*r  $
+     PAR {
+         s1=1  $ s2=2  $ s3=3  $
+         }
+     }

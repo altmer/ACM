@@ -1,0 +1,12 @@
+1=MMCIV
+0=MC
+1=O
+0=MXCIV
+1=O
+Ready
+Error
+1=MM
+1=MMMMMMMMMM
+Error
+Error
+Bye

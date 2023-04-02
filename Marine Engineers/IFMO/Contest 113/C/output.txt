@@ -1,0 +1,10 @@
+1=MMXCIV
+10=MXCIV
+1=MMMMCLXXXVIII
+Ready
+Error
+1=MM
+1=MMMMMMMMMM
+Error
+Error
+Bye

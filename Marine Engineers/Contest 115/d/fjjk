@@ -1,0 +1,25 @@
+program d;
+
+{$APPTYPE CONSOLE}
+
+uses
+  SysUtils;
+
+var n :integer;
+
+    
+begin
+ assign (input, 'billing.in');
+ assign (output, 'billing.out');
+ rewrite (output);
+ reset (input);
+
+ readln(n);
+
+
+
+
+
+ close (input);
+ close (output);
+end.

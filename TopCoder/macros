@@ -1,0 +1,44 @@
+#include <iostream>
+#include <sstream>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <string>
+#include <vector>
+#include <cmath>
+#include <bitset>
+#include <functional>
+#include <queue>
+#include <stack>
+#include <algorithm>
+#include <numeric>
+#include <limits>
+#include <map>
+#include <list>
+#include <set>
+using namespace std;
+
+class className{
+public:
+	
+};
+
+//declarations
+
+
+void input (void){
+}
+
+void output (void){
+}
+
+int main (void)
+{
+	freopen ("in.txt", "r", stdin);
+	freopen ("out.txt", "w", stdout);
+
+	input();
+	output();
+
+	return 0;
+}

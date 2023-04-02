@@ -1,0 +1,4 @@
+Access.java:79: get(long,long) in Access cannot be applied to (long)
+	            Boolean allow=get(netw(ip,32));
+                                  ^
+1 error
